@@ -1,0 +1,28 @@
+.title {
+  margin-bottom: 100px;
+  color: blue;
+}
+
+button {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  transition-duration: 300ms;
+  border-radius: 5px;
+  border-style: hidden;
+  padding: 5px 10px;
+}
+button:nth-child(1) {
+  background-color: green;
+}
+button:nth-child(2) {
+  background-color: yellow;
+}
+button:nth-child(3) {
+  background-color: red;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
